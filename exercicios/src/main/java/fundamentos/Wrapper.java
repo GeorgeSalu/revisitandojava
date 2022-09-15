@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Wrapper {
+	public static void main(String[] args) {
+		
+		//byte
+		Byte b = 100;
+		Short s = 1000;
+		Integer i = 10000; // int
+		Long l = 100000L;
+		
+		System.out.println(b.byteValue());
+		System.out.println(s.shortValue());
+		System.out.println(i.intValue());
+		System.out.println(l.longValue());
+	}
+}
