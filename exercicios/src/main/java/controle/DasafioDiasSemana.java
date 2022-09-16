@@ -26,6 +26,7 @@ public class DasafioDiasSemana {
 		} else if("sabado".equalsIgnoreCase(dia)) {
 			System.out.println(7);
 		} 
-		
+	
+		entrada.close();
 	}
 }
