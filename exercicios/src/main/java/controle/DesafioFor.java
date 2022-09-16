@@ -11,5 +11,9 @@ public class DesafioFor {
 		
 		//versao do desafio
 		//não pode usar valor numerico pra controlar o laco
+		
+		for(String v = "#"; !v.equals("######"); v += "#") {
+			System.out.println(v);
+		}
 	}
 }
