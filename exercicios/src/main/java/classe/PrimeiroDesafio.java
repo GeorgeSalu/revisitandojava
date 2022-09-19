@@ -5,6 +5,7 @@ public class PrimeiroDesafio {
 	int a = 3;
 	
 	public static void main(String[] args) {
-		System.out.println(a);
+		PrimeiroDesafio p = new PrimeiroDesafio();
+		System.out.println(p.a);
 	}
 }
