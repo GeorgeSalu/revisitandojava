@@ -16,7 +16,8 @@ public class Data {
 	}
 	
 	String obterDataFormatada() {
-		return String.format("%d / %d / %d\n", dia, mes, ano);
+		final String formato = "%d / %d / %d\n";
+		return String.format(formato, dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada() {
