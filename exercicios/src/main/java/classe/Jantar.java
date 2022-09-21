@@ -6,7 +6,7 @@ public class Jantar {
 		Comida c1 = new Comida("arroz", 0.22);
 		Comida c2 = new Comida("feijao", 0.30);
 		
-		Pessao p = new Pessao("joao", 99.8);
+		Pessoa p = new Pessoa("joao", 99.8);
 		
 		System.out.println(p.apresentar());
 		p.comer(c1);

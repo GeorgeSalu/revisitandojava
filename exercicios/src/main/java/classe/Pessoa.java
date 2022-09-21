@@ -1,10 +1,10 @@
 package classe;
 
-public class Pessao {
+public class Pessoa {
 	String nome;
 	double peso;
 	
-	public Pessao(String nome, double peso) {
+	public Pessoa(String nome, double peso) {
 		this.nome = nome;
 		this.peso = peso;
 	}
