@@ -1,4 +1,4 @@
-package oo.heracao;
+package oo.heranca;
 
 public class Heroi extends Jogador {
 
