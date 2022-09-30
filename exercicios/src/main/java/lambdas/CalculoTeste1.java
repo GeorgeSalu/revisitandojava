@@ -1,6 +1,6 @@
 package lambdas;
 
-public class CaluloTeste {
+public class CalculoTeste1 {
 	public static void main(String[] args) {
 		
 		Calculo soma = new Soma();
