@@ -1,6 +1,6 @@
 package lambdas;
 
-public class Multiplicar implements Calculo {
+public class Multiplicacao implements Calculo {
 
 	@Override
 	public double executar(double a, double b) {
