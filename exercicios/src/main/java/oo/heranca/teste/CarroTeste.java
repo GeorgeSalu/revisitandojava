@@ -20,6 +20,7 @@ public class CarroTeste {
 		Ferrari c2 = new Ferrari(400);
 		
 		c2.acelerar();
+		System.out.println("velocidade do ar => "+c2.velocidadeDoAr());
 		System.out.println(c2);
 		
 		c2.acelerar();
