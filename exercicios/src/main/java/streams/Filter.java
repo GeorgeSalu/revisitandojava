@@ -3,7 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
-public class Filters {
+public class Filter {
 	public static void main(String[] args) {
 		
 		Aluno a1 = new Aluno("Ana", 7.8);
