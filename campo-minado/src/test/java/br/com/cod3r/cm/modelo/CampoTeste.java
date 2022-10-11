@@ -23,7 +23,7 @@ public class CampoTeste {
 	}
 	
 	@Test
-	void testeVizinhoRealDistancia1Dirita() {
+	void testeVizinhoRealDistancia1Direita() {
 		Campo vizinho = new Campo(3, 4);
 		boolean resultado = campo.adicionarVizinho(vizinho);
 		assertTrue(resultado);
