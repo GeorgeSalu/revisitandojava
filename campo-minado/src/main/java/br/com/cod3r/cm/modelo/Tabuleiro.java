@@ -17,7 +17,7 @@ public class Tabuleiro {
 		this.minas = minas;
 		
 		gerarCampos();
-		associarOsVizinhos();
+		associarVizinhos();
 		sortearMinas();
 	}
 
@@ -29,7 +29,7 @@ public class Tabuleiro {
 		}
 	}
 	
-	private void associarOsVizinhos() {
+	private void associarVizinhos() {
 		for (Campo c1 : campos) {
 			for (Campo c2 : campos) {
 				c1.adicionarVizinho(c2);
