@@ -35,6 +35,7 @@ public class Tabuleiro {
 			.findFirst()
 			.ifPresent(c -> c.alternarMarcacao());
 	}
+	
 
 	private void gerarCampos() {
 		for (int linha = 0; linha < linhas; linha++) {
