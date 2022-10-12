@@ -57,7 +57,9 @@ public class TabuleiroConsole {
 				
 				if("1".equals(digitado)) {
 					tabuleiro.abrir(xy.next(), xy.next());
-				} 
+				} else if("2".equals(digitado)) {
+					tabuleiro.alterarMarcacao(xy.next(), xy.next());
+				}
 			}
 			
 			System.out.println("voce ganhou");
