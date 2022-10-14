@@ -20,6 +20,7 @@ public class Usuario {
 	}
 
 	public Usuario(String nome, String email) {
+		super();
 		this.nome = nome;
 		this.email = email;
 	}
