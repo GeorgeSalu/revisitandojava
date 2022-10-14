@@ -1,6 +1,6 @@
 package generics;
 
-public class Par<C, V> {
+public class Par<C, V> implements Comparable<Par<C, V>>{
 
 	private C chave;
 	private V valor;
@@ -59,6 +59,11 @@ public class Par<C, V> {
 		} else if (!valor.equals(other.valor))
 			return false;
 		return true;
+	}
+
+	@Override
+	public int compareTo(Par<C, V> o) {
+		return 0;
 	}
 
 }
