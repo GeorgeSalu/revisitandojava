@@ -13,7 +13,9 @@ public class ObterPedido {
 
 		for (ItemPedido itemPedido : pedido.getItens()) {
 			System.out.println(itemPedido.getQuantidade());
+			System.out.println(itemPedido.getProduto().getNome());
 		}
 
+		dao.fechar();
 	}
 }
