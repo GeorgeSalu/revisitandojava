@@ -4,7 +4,7 @@ import infra.DAO;
 import modelo.muitosparamuitos.Sobrinho;
 import modelo.muitosparamuitos.Tio;
 
-public class NovoTioSobreinho {
+public class NovoTioSobrinho {
 	public static void main(String[] args) {
 		
 		Tio tia1 = new Tio("maria");
