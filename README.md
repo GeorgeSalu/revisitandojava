@@ -20,13 +20,12 @@ Há mais de uma década Java tem se mantido como uma das principais linguagens d
 
 Outro aspecto muito importante que confere uma relevância ainda maior para Java é o fato de Java ser a linguagem oficial do Android. Por essas e outras razões Java seguramente é uma excelente opção!
 
-
 O que você aprenderá
-Conhecer a linguagem Java do zero ao avançado.
-Fundamentos de programação sólidos
-Orientação a Objetos e os seus princípios
-Banco de Dados e Frameworks de persistência como JPA
-Programação Funcional com Java
-Desenvolver WebService com Spring Boot e Banco de Dados
-Java Desktop: Swing e JavaFX
-Desenvolver projetos reais
+  - Conhecer a linguagem Java do zero ao avançado.
+  - Fundamentos de programação sólidos
+  - Orientação a Objetos e os seus princípios
+  - Banco de Dados e Frameworks de persistência como JPA
+  - Programação Funcional com Java
+  - Desenvolver WebService com Spring Boot e Banco de Dados
+  - Java Desktop: Swing e JavaFX
+  - Desenvolver projetos reais
