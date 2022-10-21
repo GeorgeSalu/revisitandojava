@@ -13,7 +13,6 @@ Java do absoluto zero até se tornar um programador profissional, dominando os r
  - Tratamento de Exceções
  - JavaFX
  - Banco de Dados Relacional
- - Bando de Dados NÃO Relacional (NoSQL)
  - JPA (Hibernate)
  - Spring Boot
 
