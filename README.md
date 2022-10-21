@@ -1,4 +1,4 @@
-Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, Spring Boot, JavaFX, JPA, Hibernate e mais
+Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, Spring Boot, JavaFX, JPA, Hibernate e mais.
 
 Java do absoluto zero até se tornar um programador profissional, dominando os recursos mais moderno da linguagem. Alguns dos assuntos abordados:
 
