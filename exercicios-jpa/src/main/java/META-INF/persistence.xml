@@ -13,6 +13,9 @@
 		<class>modelo.umpramuitos.Pedido</class>
 		<class>modelo.muitosparamuitos.Sobrinho</class>
 		<class>modelo.muitosparamuitos.Tio</class>
+		<class>modelo.composicao.Endereco</class>
+		<class>modelo.composicao.Fornecedor</class>
+		<class>modelo.composicao.Funcionario</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
