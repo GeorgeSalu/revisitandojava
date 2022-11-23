@@ -50,6 +50,7 @@ public class Wizard extends Application {
 		Button proximoPasso = new Button("Ir para passo 3");
 		proximoPasso.setOnAction(e -> {
 			janela.setScene(passo3);
+			janela.setTitle("Wizard :: Passo 3");
 		});
 		
 		HBox box = new HBox();
@@ -64,6 +65,7 @@ public class Wizard extends Application {
 		Button passoAnterior = new Button("<< Voltar para passo 2");
 		passoAnterior.setOnAction(e -> {
 			janela.setScene(passo2);
+			janela.setTitle("Wizard :: Passo 2");
 		});
 		Button proximoPasso = new Button("Finalizar");
 		proximoPasso.setOnAction(e -> {
