@@ -16,20 +16,20 @@ public class Contador extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		
-		Label labelTitulos = new Label("Contador");
-		labelTitulos.getStyleClass().add("titulo");
-		Label labelNumeros = new Label("0");
-		labelNumeros.getStyleClass().add("numero");
+		Label labelTitulo = new Label("Contador");
+		labelTitulo.getStyleClass().add("titulo");
+		Label labelNumero = new Label("0");
+		labelNumero.getStyleClass().add("numero");
 		
 		Button botaoDecremento = new Button("-");
 		botaoDecremento.setOnAction(e -> {
 			contador--;
-			labelNumeros.setText(Integer.toString(contador));
+			labelNumero.setText(Integer.toString(contador));
 		});
 		Button botaoIncremento = new Button("+");
 		botaoIncremento.setOnAction(e -> {
 			contador++;
-			labelNumeros.setText(Integer.toString(contador));
+			labelNumero.setText(Integer.toString(contador));
 		});
 		
 		HBox boxBotoes = new HBox();
@@ -42,8 +42,8 @@ public class Contador extends Application {
 		boxConteudo.getStyleClass().add("conteudo");
 		boxConteudo.setAlignment(Pos.CENTER);
 		boxConteudo.setSpacing(10);
-		boxConteudo.getChildren().add(labelTitulos);
-		boxConteudo.getChildren().add(labelNumeros);
+		boxConteudo.getChildren().add(labelTitulo);
+		boxConteudo.getChildren().add(labelNumero);
 		boxConteudo.getChildren().add(boxBotoes);
 		
 		String caminhoDoCss = getClass().getResource("/basico/Contador.css").toExternalForm();
