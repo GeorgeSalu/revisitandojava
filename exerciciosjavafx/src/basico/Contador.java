@@ -15,7 +15,7 @@ public class Contador extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		
 		Label labelTitulo = new Label("Contador");
-		Label labelNUmero = new Label("0");
+		Label labelNumero = new Label("0");
 		
 		Button botaoDecremento = new Button("-");
 		Button botaoIncremento = new Button("+");
@@ -30,7 +30,7 @@ public class Contador extends Application {
 		boxPrincipal.setAlignment(Pos.CENTER);
 		boxPrincipal.setSpacing(10);
 		boxPrincipal.getChildren().add(labelTitulo);
-		boxPrincipal.getChildren().add(labelNUmero);
+		boxPrincipal.getChildren().add(labelNumero);
 		boxPrincipal.getChildren().add(boxBotoes);
 		
 		Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
