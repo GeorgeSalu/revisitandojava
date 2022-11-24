@@ -5,9 +5,9 @@ import java.util.List;
 
 import javafx.scene.layout.TilePane;
 
-public class TEsteTilePane extends TilePane{
+public class TesteTilePane extends TilePane{
 
-	public TEsteTilePane() {
+	public TesteTilePane() {
 		List<Quadrado> quadrados = new ArrayList<>();
 		
 		for(int i = 1; i < 10; i++) {
