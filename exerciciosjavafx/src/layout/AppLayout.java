@@ -11,10 +11,11 @@ public class AppLayout extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		Parent raiz = null;
 		
-		raiz = new TesteBorderPane();
-		raiz = new TesteFlowPane();
-		raiz = new TesteGridPane();
-		raiz = new TesteStackPane();
+//		raiz = new TesteBorderPane();
+//		raiz = new TesteFlowPane();
+//		raiz = new TesteGridPane();
+//		raiz = new TesteStackPane();
+		raiz = new TEsteTilePane();
 		
 		Scene principal = new Scene(raiz, 800, 600);
 		
