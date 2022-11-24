@@ -4,16 +4,10 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 
-public class TesteGripPane extends GridPane {
+public class TesteGridPane extends GridPane {
 
-	public TesteGripPane() {
+	public TesteGridPane() {
 		Caixa c1 = new Caixa().comTexto("1");
-		Caixa c2 = new Caixa().comTexto("2");
-		Caixa c3 = new Caixa().comTexto("3");
-		Caixa c4 = new Caixa().comTexto("4");
-		Caixa c5 = new Caixa().comTexto("5");
-		Caixa c6 = new Caixa().comTexto("6");
-	
 		
 		setGridLinesVisible(true);
 		
