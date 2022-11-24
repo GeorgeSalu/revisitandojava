@@ -11,7 +11,6 @@ public class AppLayout extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		Parent raiz = null;
 		
-//		Scene principal = new Scene(new TesteAnchorPane(), 800, 600);
 		raiz = new TesteBorderPane();
 		raiz = new TesteFlowPane();
 		raiz = new TesteGridPane();
