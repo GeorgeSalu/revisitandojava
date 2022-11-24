@@ -1,3 +1,5 @@
+## Java Coder
+
 Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, Spring Boot, JavaFX, JPA, Hibernate e mais.
 
 Java do absoluto zero até se tornar um programador profissional, dominando os recursos mais moderno da linguagem. Alguns dos assuntos abordados:
@@ -27,5 +29,5 @@ O que você aprenderá
   - Banco de Dados e Frameworks de persistência como JPA
   - Programação Funcional com Java
   - Desenvolver WebService com Spring Boot e Banco de Dados
-  - Java Desktop: Swing e JavaFX
+  - Java Desktop: JavaFX
   - Desenvolver projetos reais
