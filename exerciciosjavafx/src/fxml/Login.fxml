@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 
 <GridPane xmlns:fx="http://javafx.com/fxml/1"
 	fx:controller="fxml.LoginControlador"
-	styleClass="login">
+	styleClass="login" hgap="15" vgap="15">
+	
+	<padding>
+		<Insets left="40" right="40" />
+	</padding>
+	
+	<columnConstraints>
+		<ColumnConstraints minWidth="90" prefWidth="90" halignment="right"/>
+		<ColumnConstraints prefWidth="200" maxWidth="Infinity" hgrow="ALWAYS" />
+	</columnConstraints>
+	
 	<Label text="seja bem Vindo" 
 		styleClass="login-titulo"
-		GridPane.columnIndex="0" GridPane.rowIndex="0"></Label>
+		GridPane.columnIndex="0" GridPane.rowIndex="0"
+		GridPane.columnSpan="2" GridPane.halignment="CENTER"></Label>
 		
 	<Label text="E-mail: "
 		styleClass="login-form-label"
@@ -29,7 +41,8 @@
 	<Button text="Entrar"
 			styleClass="login-form-botao"
 			GridPane.columnIndex="0" GridPane.rowIndex="3"
-			onAction="#entrar">
+			onAction="#entrar"
+			GridPane.columnSpan="2" GridPane.halignment="CENTER">
 	
 	</Button>
 </GridPane>
